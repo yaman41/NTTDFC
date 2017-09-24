@@ -1,0 +1,58 @@
+【powershell or C】　スタートアップ
+○ダウンロード
+　○bitsサービス起動
+　　落ちるときあるか？
+　○bitsジョブ登録
+　　優先度低
+　○bitsジョブ終了
+
+○展開
+
+https://technet.microsoft.com/ja-jp/library/cc754065(v=ws.10).aspx
+https://msdn.microsoft.com/ja-jp/library/aa362812(v=vs.85).aspx
+
+
+＜参考＞
+○bitsadmin
+https://msdn.microsoft.com/en-us/library/windows/desktop/aa362813(v=vs.85).aspx
+
+○スクリプト
+https://qwerty.work/blog/2016/06/windowslinuxwget.php
+
+https://stackoverflow.com/questions/26926114/how-to-download-exe-file-from-web-and-run-it-with-some-script
+
+○powershell
+https://stackoverflow.com/questions/11585231/how-to-run-script-on-bits-download-completion
+http://blogs.itmedia.co.jp/komata/2014/09/bits-83e6.html
+
+httｓp://vogel.at.webry.info/201506/article_3.html
+
+
+【vbs or bat】　シャットダウン
+○インストール開始チェック
+
+○インストール
+
+○インストール成功チェック
+
+○異常判定
+
+■課題
+　・シャットダウン　１０分
+　　　プログラム適用のため？
+　　　普通にやるとどう？　　インストール自体は２，３分　シャットダウンは？
+
+
+【参考】
+○msuインストールできない
+http://www.windows-tips.info/2013/01/03/msu-%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%8C%E5%B1%95%E9%96%8B%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E5%A0%B4%E5%90%88%E3%81%AE%E5%AF%BE%E5%87%A6%E6%B3%95%E3%80%82/
+
+○パッチ
+http://100mds.blogspot.jp/2013/05/blog-post_30.html
+
+○スクリプト例
+http://ccmexec.com/2012/02/installing-multiple-windows-7-hotfixes-msu-with-sccm/
+
+○wusa 仕様
+https://support.microsoft.com/ja-jp/help/934307/description-of-the-windows-update-standalone-installer-in-windows
+
